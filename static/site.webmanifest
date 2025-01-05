@@ -1,0 +1,27 @@
+{
+	"name": "Svelte 5 Project",
+	"short_name": "Svelte 5 Project",
+	"description": "Svelte 5 Project",
+	"icons": [
+		{
+			"src": "/favicon.png",
+			"sizes": "64x64",
+			"type": "image/png"
+		},
+		{
+			"src": "/apple-touch-icon.png",
+			"sizes": "180x180",
+			"type": "image/png"
+		},
+		{
+			"src": "/icon-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#020617",
+	"background_color": "#020617",
+	"display": "standalone",
+	"start_url": "/",
+	"scope": "/"
+}

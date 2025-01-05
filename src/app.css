@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&display=block');
+@import 'tailwindcss';
+
+html {
+	interpolate-size: allow-keywords;
+}
+
+body {
+	font-family: 'Instrument Sans', 'Inter', sans-serif;
+	@apply bg-slate-900 text-lg leading-tight font-medium tracking-tight text-gray-400 antialiased sm:text-xl;
+}
+
+input {
+	@apply align-middle;
+}
+
+
