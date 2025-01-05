@@ -1,5 +1,5 @@
 {
-	"name": "nxpm-svelte3",
+	"name": "svelte5-tw4-tmpl",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -24,7 +24,7 @@
 		"prettier": "^3.4.2",
 		"prettier-plugin-svelte": "^3.3.2",
 		"prettier-plugin-tailwindcss": "^0.6.9",
-		"svelte": "^5.16.0",
+		"svelte": "^5.16.1",
 		"svelte-check": "^4.1.1",
 		"sveltekit-autoimport": "^1.8.1",
 		"tailwind-merge": "^2.6.0",
@@ -33,7 +33,7 @@
 		"typescript": "^5.7.2",
 		"typescript-eslint": "^8.19.0",
 		"unplugin-icons": "^0.22.0",
-		"vite": "^6.0.6"
+		"vite": "^6.0.7"
 	},
 	"type": "module"
 }

@@ -16,7 +16,7 @@
 <svelte:head>
 	<title>{title}</title>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-BYFLZ1T07N"></script>
-	
+
 	<meta name="description" content={description} />
 	<meta name="keywords" content="" />
 	<meta property="og:title" content={title} />
@@ -36,15 +36,7 @@
 </svelte:head>
 
 {#if loading}
-	<div class="visible! absolute inset-0 z-50 flex size-full items-center justify-center">
-		Loading...
-	</div>
+	<div class="visible! absolute inset-0 z-50 flex size-full items-center justify-center">Loading...</div>
 {:else}
-
-
-		<main>{@render children?.()}</main>
-
-
-
-
+	<main>{@render children?.()}</main>
 {/if}
