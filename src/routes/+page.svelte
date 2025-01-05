@@ -2,3 +2,5 @@
 </script>
 
 <h1 class="absolute flex size-full items-center justify-center text-3xl font-semibold">Svelte 5 Project</h1>
+
+<UiH text="Hello World" class="text-red-500" />

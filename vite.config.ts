@@ -12,5 +12,8 @@ export default defineConfig({
 		sveltekit(),
 		tailwindcss(),
 		Icons({ compiler: 'svelte', autoInstall: true })
-	]
+	],
+	server: {
+		host: '0.0.0.0'
+	}
 });
