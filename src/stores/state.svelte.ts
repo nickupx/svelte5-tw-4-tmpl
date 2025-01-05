@@ -1,3 +1,3 @@
-export let global: any = $state({
+export let state = $state({
 	lang: 'en'
 });

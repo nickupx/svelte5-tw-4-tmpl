@@ -1,6 +1,7 @@
 <script>
 	import '$src/app.css';
 	import { animateOnload } from '$lib/animations';
+	import { state as s } from '$stores/state.svelte';
 	let { children } = $props();
 	let loading = $state(true);
 
